@@ -44,12 +44,14 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: libxposed/api
+          ref: '54582730315ba4a3d7cfaf9baf9d23c419e07006'
           path: libxposed/api
 
       - name: Checkout libxposed/service
         uses: actions/checkout@v4
         with:
           repository: libxposed/service
+
           path: libxposed/service
 
       - name: Setup Java
